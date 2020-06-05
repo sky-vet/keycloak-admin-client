@@ -256,7 +256,7 @@ $client->createUser([
 
 | API | Function Name | Supported |
 |-----|:-------------:|:---------:|
-| create or add a top level realm groupSet or create child. | | ❌ |
+| create or add a top level realm groupSet or create child. | | ✔ |
 | Get group hierarchy. | | ❌ |
 | Returns the groups counts. | | ❌ |
 | GET /{realm}/groups/{id} | | ❌ |

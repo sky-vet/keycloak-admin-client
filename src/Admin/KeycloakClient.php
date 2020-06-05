@@ -93,7 +93,8 @@ use Keycloak\Admin\Classes\FullBodyLocation;
  * @method array getClientRoleUsers(array $args = array()) { @command Keycloak getClientRoleUsers }
  * @method array getClientRoles(array $args = array()) { @command Keycloak getClientRoles }
  * @method array getClientRole(array $args = array()) { @command Keycloak getClientRole }
- * 
+ *
+ * @method array createGroup(array $args = array()) { @command Keycloak createGroup }
  */
 
 class KeycloakClient extends GuzzleClient

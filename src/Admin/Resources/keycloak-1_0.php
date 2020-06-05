@@ -1581,5 +1581,21 @@ return array(
             ),
         ),
 
+        // Groups
+
+        'createGroup' => array(
+            'uri' => 'auth/admin/realms/{realm}/groups',
+            'description' => 'Create a new group Group must be unique.',
+            'httpMethod' => 'POST',
+            'parameters' => array(
+                    'realm' => array(
+                        'location'    => 'uri',
+                        'description' => 'The Realm name',
+                        'type'        => 'string',
+                        'required'    => true,
+                    ),
+                ) + $GroupRepresentation
+        ),
+
     ) //End of Operations Array
 );//End of return array
